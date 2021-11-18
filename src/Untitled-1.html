@@ -1,0 +1,63 @@
+<html lang="ru">
+  <!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Первый макет</title>
+    <style>
+      .wrapper {
+        display: grid;
+        grid-template-rows: auto 30px;
+        grid-template-columns: repeat(12, 1fr);
+      }
+
+      .p-20 {
+        padding: 20px;
+      }
+
+      .col-3 {
+        grid-column: span 3;
+      }
+
+      .col-9 {
+        grid-column: span 9;
+      }
+
+      .text-white {
+        color: white;
+      }
+
+      .bg-blue {
+        background: blue;
+      }
+
+      .bg-gray {
+        background: gray;
+      }
+    </style>
+  </head>
+  <section class="wrapper text-white">
+    <div class="col-3 bg-blue p-20">Элемент 1. Ширина — 3 колонки</div>
+    <div class="col-9 bg-gray p-20">Элемент 2. Ширина — 9 колонок</div>
+
+    <div
+      style="
+        grid-column: span 1;
+
+        background-color: aqua;
+      "
+      class="p-20"
+    >
+      Элемент 3. Ширина — 4 колонок
+    </div>
+    <div
+      style="
+        grid-column: span 5;
+
+        background-color: gold;
+      "
+      class="p-20"
+    >
+      Элемент 4. Ширина — 5 колонок
+    </div>
+  </section>
+</html>
