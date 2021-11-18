@@ -19,10 +19,13 @@
   "homepage": "https://github.com/verbatiun/my-workspace#readme",
   "devDependencies": {
     "htmlhint": "^0.16.1",
+    "postcss-html": "^1.2.0",
     "prettier": "^2.4.1",
     "stylelint": "^14.1.0",
+    "stylelint-config-html": "^1.0.0",
     "stylelint-config-rational-order": "^0.1.2",
     "stylelint-config-standard": "^24.0.0",
-    "stylelint-order": "^5.0.0"
+    "stylelint-order": "^5.0.0",
+    "surge": "^0.23.0"
   }
 }
